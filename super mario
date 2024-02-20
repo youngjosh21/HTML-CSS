@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estojovazio.css">
+</head>
+<body>
+    <h1>SUPER MARIO BROS</h1>
+
+    <hr>
+
+    <p> repellendus ducimus delectus at autem harum libero vitae natus quidem eius, iure soluta nostrum provident enim
+        quis temporibus neque sapiente hic.
+        
+
+    </p>
+    <!-- da um espaço entre os textos -->
+    <br>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repudiandae error explicabo aliquam quidem, et
+        voluptatum unde in iste quos? Accusamus ex qui dicta nostrum unde quos nulla dolorum excepturi.
+        
+    </p>
+    <!-- faz linha  -->
+    <hr>
+    <div class="caixa">
+
+        <img src="imagens/imagem1.jpg">
+        
+        <img src="imagens/imagem2.jpg">
+    </div>
+
+<hr>
+
+<!-- faz titulos ou subtitulos -->
+<h2>Trailer: Super Mario Bros</h2>
+<!-- adiciona video -->
+<video src="files/SaveTube.io-Super Mario Bros. - O Filme _ Trailer Dublado-(1080p).mp4" controls id="vmario"></video>
+</body>
+</html>
+
