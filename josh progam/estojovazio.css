@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(white, black, gray);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+text-align: center;
+}
+
+h1{
+    width: 500px;
+    color: white;
+    border-radius: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
+}
+
+.central .icon {
+    width: 300px;
+    background: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 20px;
+margin: auto;
+}
+
+img { 
+    /* // /aqui é para controlar o tamanhos das fotos e criar a bordinha fina/  */
+    width: 150px;
+    border-radius: 30PX;
+    border: 2px solid black; 
+    text-align: center;
+    /* //  /aqui é como cria a borda fina ao redor da foto/ */
+    
+}
+
+.central .botoes button { 
+    /* // /aqui é uma div dentro de outra div, aqui controla os botões/ */
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 10PX;
+    background: linear-gradient(rgba(250, 252, 137, 0.712), rgb(149, 241, 149), rgb(113, 167, 247));
+    cursor: pointer;
+    margin: 8px; 
+    /* // /aqui é para ter espaço entre os botões/ */
+    transition: 0.3s; 
+    /* //  /aqui é para quando os botões mudarem de cor, ter um tempinho de transição para nao ficar muito seco/ */
+    
+    
+}
+
+.central .botoes button:hover {
+    /* //  /aqui é para quando o mouse passar por cima mudar de cor/ */
+    background: rgba(172, 170, 170, 0.877); 
+    /* // /aqui muda a cor do fundo quando mouse passa por cima pra ter um efeito, é bom colocar a cor difernte do fundo da div/ */
+    color: rgb(0, 99, 0); 
+    /* // /aqui muda a cor da letra quando o mouse passa em cima/ */
+    border: 1px solid  rgb(0, 99, 0); 
+    /* // /aqui muda a cor da borda do botão para ficar mais bonitinho/ */
+
+}
