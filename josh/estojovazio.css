@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    background: url('imagem/avatar1.jpg')  ;
+    background-size: cover;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.central {
+    width: 400px;
+    height: 200px;
+    background: rgba(30, 132, 158, 0.39);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    gap: 5px;
+
+}
+
+/* todas as divs de uma vez só, todas as divs que estão no central*/
+.central div{
+width: 100px;
+height: 150px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
