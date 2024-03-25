@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+
+    align-items: baseline;
+    display: flex;
+    justify-content: right;
+    background: none
+}
+
+h1 {
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+header div{
+
+width: 300px;
+height: 40px;
+background: black;
+border-radius: 30px;
+
+
+
+
+}
+
+.button .btn{
+    background: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+
+
+}
+
+
+
+.header {
+    background: black;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    height: 200px;
+    width: 150px;
+    
+}
+
+.central .botoes {
+    background: none;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    border-radius: 30px;
+    gap: 10px;
+    padding: 20px;
+    width: 50px;
+
+}
+
+img {
+    /* // /aqui é para controlar o tamanhos das fotos e criar a bordinha fina/  */
+    width: 150px;
+    height: 150px;
+    gap: 150px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: right;
+    display: flex;
+    top: 2;
+    right: 2;
+    /* //  /aqui é como cria a borda fina ao redor da foto/ */
+
+}
+
+.claro {
+    background: url(../images/avatar\ modo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.escuro {
+    background: url(../images/AVTR_Unit_01819-1024x683.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
