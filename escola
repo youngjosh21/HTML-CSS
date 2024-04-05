@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCOLA</title>
+    <link rel="stylesheet" href="css/estojovazio.css">
+</head>
+
+<body>
+    <div class="central">
+        <p id="bemvindo">Seja Bem-vindo!</p>
+      <span id="Nome" input type="text" id="nome" placeholder="Digite seu nome"></span>
+      
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <p>1 Unidade:</p>
+        <input type="text" id="nota1" placeholder="Digite nota 1">
+        <p>2 Unidade:</p>
+        <input type="text" id="nota2" placeholder="Digite nota 2">
+        <p>3 Unidade:</p>
+        <input type="text" id="nota3" placeholder="Digite nota 3">
+
+
+        <button id="calcular"> Calcular média</button>
+        <span id="resultado"></span>
+    </div>
+    <script src="js/magica.js"></script>
+</body>
+
+</html>
