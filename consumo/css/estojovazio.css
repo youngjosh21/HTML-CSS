@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    background: url('../images/ja-morant-american-3840x2160-13074.jpg');
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+
+.central {
+    width: 490px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    border: 100px;
+    box-shadow: 3px 3px 3px;
+    background-attachment: fixed;
+    background: rgba(0, 102, 128, 0.212);
+    
+    
+}
+
+.central span {
+    color: rgb(44, 152, 160);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.central input {
+    
+    border-radius: 20pxpx;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.central #btncalcular {
+
+    height: 30px;
+    width: 100px;
+    background: rgb(38, 117, 141);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.central #resultado {
+
+    font-size: 30px;
+    color: white;
+
+}
+.central #btncalcular:hover{
+background-color: aliceblue;
+color: aqua;
+transition: 0.6s;
+
+}
