@@ -1,0 +1,70 @@
+body {
+
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: black;
+
+
+}
+
+.central #yuhul {
+    
+    display: flex;
+
+}
+
+.central imgg {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+img {
+    display: flex;
+    height: 200px;
+    border: none;
+
+
+
+}
+
+
+nomes {
+    align-items: right;
+    text-align: justify;
+    display: flex;
+}
+
+.central {
+    background: white;
+    border-radius: 40px;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    color: rgb(87, 75, 75);
+    font-size: large;
+    gap: 10px;
+    padding: 60px;
+}
+
+button {
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100px;
+    background: black;
+    color: aliceblue;
+    height: 25px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
