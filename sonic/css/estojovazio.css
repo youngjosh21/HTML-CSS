@@ -1,0 +1,77 @@
+body {
+
+    background: url('../images/237222.png');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#sonic {
+    position: absolute;
+    /* manipular o objeto em qualquer lugar da tela  */
+    top: 72%;
+    left: -150px;
+    height: 200px;
+    width: 150px;
+    animation: correr 5s infinite ;
+
+}
+
+#robotinik {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    animation: voar 5s infinite;
+    transform: rotateY(180deg);
+}
+
+@keyframes correr {
+    0% {
+        top: 72%;
+        left: -150px;
+    }
+    
+20%{
+left: 40%;
+top: 55%;
+}
+30%{
+left: 45% ;
+top: 40%;
+}
+50%{
+
+    top: 50%;
+    left: 40%;
+}
+
+55%{
+
+top: ;
+
+}
+
+
+
+
+    100% {
+        top: 72%;
+        left: 110%;
+    }
+}
+@keyframes voar{
+    0%{
+    top: 30%;
+    left: 200%;
+}
+100%{
+top: 30%;
+left: -180px;
+
+}
+
+}
+
