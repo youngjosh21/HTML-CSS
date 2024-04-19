@@ -1,0 +1,55 @@
+body {
+
+    background: url('../images/SF2_リュウステージ.jpg');
+    height: 100vh;
+   
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#goku {
+    position: absolute;
+    /* manipular o objeto em qualquer lugar da tela  */
+    
+    height: 200px;
+
+    animation: corrergoku 5s infinite;
+
+}
+
+#pikachu {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: 50%;
+    left: 200%;
+    animation: correrpikachu 5s infinite;
+    transform: rotateY(180deg);
+}
+
+@keyframes corrergoku {
+    0% {
+        top: 66%;
+        left: -130px;
+    }
+
+    100% {
+        top: 66%;
+        left: 110%;
+    }
+}
+
+@keyframes correrpikachu {
+    0% {
+        top: 66%;
+        left: 200%;
+    }
+
+    100% {
+        top: 66%;
+        left: -180px;
+
+    }
+
+}
