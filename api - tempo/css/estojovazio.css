@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Open Sans";
 }
+ 
 body {
   height: 100vh;
   width: 100vw;
@@ -22,8 +23,10 @@ body {
   border-radius: 25px;
   padding: 20px;
   /* responsivo */
-  width: 95%; /*Largura tela menores*/
-  max-width: 450px; /*Largura tela maiores*/
+  width: 95%;
+  /*Largura tela menores*/
+  max-width: 450px;
+  /*Largura tela maiores*/
 }
 
 .caixa-media {
@@ -68,20 +71,20 @@ body {
 }
 
 .caixa-menor {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    color: white;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  gap: 20px;
 }
 
-.umidade{
-    color:white;
-    margin-top: 20px;
+.umidade {
+  color: white;
+  margin-top: 20px;
 }
 
-.texto-previsao{
-    text-transform: capitalize;
-    color: aliceblue;
-    margin: 10px 0;
+.texto-previsao {
+  text-transform: capitalize;
+  color: aliceblue;
+  margin: 10px 0;
 }
